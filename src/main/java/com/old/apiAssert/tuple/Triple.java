@@ -14,7 +14,7 @@ public class Triple<LEFT, MIDDLE, RIGHT> implements Serializable {
     private MIDDLE middle;
     private RIGHT right;
 
-    public static <LEFT, MIDDLE, RIGHT> Triple<LEFT, MIDDLE, RIGHT> create(LEFT left, MIDDLE middle, RIGHT right) {
+    public static <LEFT, MIDDLE, RIGHT> Triple<LEFT, MIDDLE, RIGHT> of(LEFT left, MIDDLE middle, RIGHT right) {
         return new Triple<>(left, middle, right);
     }
 }

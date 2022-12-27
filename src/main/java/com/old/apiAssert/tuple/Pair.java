@@ -3,7 +3,7 @@ package com.old.apiAssert.tuple;
 public class Pair<K,V> extends javafx.util.Pair<K,V> {
 
 
-    public static <K,V> Pair<K,V> create(K k, V v) {
+    public static <K,V> Pair<K,V> of(K k, V v) {
         return new Pair<>(k, v);
     }
 
